@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.coffee-nav{
+	float: right;
+	height: 100%;
+}
+ 
+.navbar {
+    background-color: #640606;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.navlink {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navAnchor {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    float:right;
+    margin: 10px;
+
+   
+}
+
+.logo {
+    margin-right: 70px;
+}
+
+.navLOGO {
+    font-size: 30px;
+    font-weight: bold;
+}
+.container{
+    height: 500px;
+    color: #d3cdcd;
+
+}
+.add-to-cart {
+    border: 1px solid green;
+    text-align: center;
+    margin: 20px;
+    padding: 10px 100px;
+    text-decoration: none;
+    background: rgb(55, 167, 55);
+    color: white;
+    font-size: large;
+}
+
+
+.card {
+    
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    margin:10px;
+    
+  }
+  
+  h5{
+    color: black;  
+  }
+  h6{
+      color: black;
+  }
+
+
+
+  .footer {
+    background-color: #380303;
+    height: 300px;
+}

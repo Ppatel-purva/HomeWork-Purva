@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #6e3d7c;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.navlink {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navAnchor {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.logo {
+    margin-right: 70px;
+}
+
+.navLOGO {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+.containar{
+
+    background-color: white;
+    height: 150px;
+}
+.text{
+
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    color:#A6A4A4 ;
+    font-family: sans-serif;
+    font-size:15px;
+    padding-top: 50px;
+}
+
+.body{
+    margin-top: 10px;
+    height:600px;
+    width: 100%;
+    background-color:whitesmoke;
+
+}
+h2{
+    font-family:sans-serif;
+    margin-left: 150px;
+    padding-top: 50px;
+    color:#706E6E  ;
+    
+}
+.body-text{
+    font-family: sans-serif;
+    text-align: left;
+    margin-left: 150px;
+    padding-top: 10px;
+    color:#A6A4A4 ;
+    font-size: 15px;
+    margin-right: 150px;
+}
+
+.card {
+    
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    
+  }
+  
+  .cardtext {
+    color: grey;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:rgb(44, 179, 44);
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  
+  
+
+.headertext1{
+    font-family: sans-serif;
+    text-align: left;
+    margin-left:30px;
+    padding-top: 20px;
+    color:rgb(73, 71, 71) ;
+    font-size: 15px;
+  
+}
+
+.headertext2{
+    font-family: sans-serif;
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 10px;
+    color:rgb(73, 71, 71) ;
+    font-size: 15px;
+    
+}
+
+
+
+
+
+
+.footer {
+    background-color: #6e3d7c;
+    padding-bottom: 40px;
+    height: 300px;
+}
+
+.footerSection1 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-top: 60px;
+}
+.footerSection2 {
+   
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-top: 60px;
+} 
+.footerSection3{
+    
+    float: right;
+    width: 30%;
+    text-align: center;
+    margin-top: 60px;
+    
+
+}
+
+.footeranchor{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 20px;
+
+}
+.feedback{
+    margin-top: 60px;
+}
+

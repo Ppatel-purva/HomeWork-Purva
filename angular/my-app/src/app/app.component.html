@@ -1,0 +1,27 @@
+
+<h2>Item in cart:{{ counter }}</h2>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Product Name</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor= "let cartItem of Data">
+            <th scope="row">{{cartItem.id}}</th>
+            <td>{{cartItem.name}}</td>
+            <td>{{cartItem.quentity}}</td>
+            <td>{{cartItem.price}}</td>
+          </tr> 
+          <tr>
+              <th scope="row">-</th>
+              <td><strong>Total</strong></td>
+              <td></td>
+              <td>{{billAmount}}</td>
+          </tr>   
+        </tbody>
+      </table>
+<app-xyz (discriptionItemEvent)="addItemToCart($event)"></app-xyz>
