@@ -1,0 +1,18 @@
+
+<div class="container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4" name="product-image" *ngFor= "let product of productsList">
+                <div class="card mb-4" style="width : 18rem;">
+                    <a routerLink='addtocart' class="navAnchor"><img src={{product.url}} class= "card-img-top"></a>
+                    <div class="card-body">
+                        <h4>{{product.name}}</h4>
+                        <h5>{{product.price}}</h5>
+                        <h5>{{product.quentity}}</h5>
+                        <button class="btn btn-primary" (click)="addItemToCart(product)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
